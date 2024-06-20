@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三级联动效果</title>
+    <link rel="stylesheet" href=".src/index.css">
+</head>
+
+<body>
+    <ul class="list">
+        <li class="item">
+            <span>省会</span>
+            <div>
+                <select name="province" id="province">
+                    <option value="0000">请选择</option>
+                </select>
+            </div>
+        </li>
+        <li class="item">
+            <span>城市</span>
+            <div>
+                <select name="city" id="city"></select>
+            </div>
+        </li>
+        <li class="item">
+            <span>学校</span>
+            <div>
+                <select name="school" id="school"></select>
+            </div>
+        </li>
+    </ul>
+    <script src=".data/AllSchool.js"></script>
+    <script src=".src/index.js"></script>
+</body>
+
+</html>
